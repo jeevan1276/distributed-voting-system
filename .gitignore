@@ -1,0 +1,11 @@
+@"
+node_modules/
+.env
+.env.*
+!.env.example
+npm-debug.log*
+dist/
+coverage/
+.DS_Store
+*.log
+"@ | Set-Content -Path .gitignore -Encoding utf8
